@@ -119,6 +119,7 @@ const game_objs = [
 	maek.CPP('Load.cpp'),
 	maek.CPP('data_path.cpp'),
 	maek.CPP('Mode.cpp'),
+	maek.CPP('AssetPipeline.cpp'),
 	maek.CPP('gl_compile_program.cpp'),
 	maek.CPP('GL.cpp')
 ];
