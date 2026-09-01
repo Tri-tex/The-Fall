@@ -48,6 +48,7 @@ void AssetPipeline::parseSpriteNbyN(int blx, int Nx, int bly, int Ny, int sprite
 
 void AssetPipeline::parseSprite(int x, int y, int spriteIndx)
 {
+    //Make sure coordinate is within range
     if (ppu == nullptr) { return; }
     if (x < 0 || x >= 16 || y < 0 || y >= 16) { return; }
 
